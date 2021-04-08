@@ -1,0 +1,137 @@
+body {
+    background-color: #18191A;
+}
+.block {
+	display: block;
+	display:inline-block;
+	width: 33%;
+	border: none;
+	background-color: #3B98AB;
+	color: white;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.sectorBlock {
+	color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+  }
+.header {
+    display: block;
+	display:inline-block;
+    width: 97%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    background-color: #242526;
+    padding: 16px 35px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr .1fr .1fr .1fr .1fr;
+}
+
+.header-grid-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-grid-child-title {
+    color: grey;
+    font-size: 14px;
+
+}
+
+.header-grid-child-numbers {
+    color: white;
+    font-size: 18px;
+
+}
+
+.grid {
+    background-color: #18191A;
+    padding: 1em;
+}
+.grid-container-title {
+    display: grid;
+    width: 97%;   
+    grid-template-columns: 1fr .10fr .10fr .10fr .2fr .10fr;
+    background-color: #242526;         
+    border: transparent;        
+    font-size: 16px;
+    padding: 14px 28px;
+    text-transform: uppercase;
+    color: grey;
+  }
+
+.grid-container {
+    display: grid;         
+    grid-template-columns: 1fr .10fr .10fr .10fr .2fr .10fr;
+    background-color: #242526;         
+    border: transparent;        
+    width: 97%; 
+    padding: 14px 28px;
+  }
+
+.grid-child-ticker-title{
+    color: grey;
+  }
+
+.grid-child {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid-child-ticker {
+    color: blue;
+    font-size: 12px;
+  }
+
+.grid-child-last {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid-child-percent-change {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid-child-change {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid-child-trend {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid-child-volume {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
